@@ -3,6 +3,12 @@ const express = require('express')
 //crio uma instancia do express
 const app = express()
 
+//importarr o lib cors
+const cors = require('cors')
+//desabilita a configuração de cors 
+//habilitda o browser para mandar requisição pro seu backend local
+app.use(cors())
+
 //Middlewares (intermediarios)
 //intermediario de log
 app.use((req, res, next) => {

@@ -1,17 +1,16 @@
 {
-  "name": "04-calculadora-nota",
+  "name": "02calculadora-express",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
-    "start": "nodemon index.js",
+  "scripts": { "start": "nodemon index.js",
     "test": "jest"
   },
+
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "cors": "^2.8.5",
     "express": "^5.1.0"
   },
   "devDependencies": {
